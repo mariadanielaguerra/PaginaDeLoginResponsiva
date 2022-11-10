@@ -1,0 +1,77 @@
+@media (min-width: 480px) and (max-width: 1024px) {
+  .home-image {
+    display: none;
+  }
+
+  .container {
+    width: 80vw;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    text-align: center;
+  }
+  .titulo-login {
+    font-size: max(3.2rem, 12px);
+    margin-bottom: 12%;
+  }
+  .titulo-login::after {
+    height: 1px;
+    width: 13rem;
+    height: 2rem;
+    margin-top: -2.5rem;
+  }
+  .content {
+    margin-top: -8vh;
+    margin-left: -1vh;
+  }
+  #email,
+  #password {
+    width: 55vw;
+    height: 3.2rem;
+    font-size: max(1.8rem, 10px);
+    border: 0.2rem solid pink;
+  }
+  .box-input {
+    margin-bottom: 1.7vh;
+  }
+  #btn {
+    width: 12rem;
+    height: 3.2rem;
+    margin-top: 5vh;
+    font-size: max(22px, 1rem);
+    font-weight: 600;
+  }
+  .details {
+    width: 25vh;
+    margin-top: 12%;
+  }
+  .social-icons p {
+    font-size: max(22px, 1rem);
+    margin-left: -5vh;
+  }
+  .singUp {
+    font-size: max(22px, 1rem);
+  }
+  .icons-img img {
+    width: 5.4vh;
+    margin: 0.7rem;
+  }
+  .icons-img {
+    margin-left: -6vh;
+  }
+  .icon-form-password {
+    width: 2.2rem;
+    height: 2rem;
+  }
+
+  .icon-form-email {
+    width: 1.8rem;
+    height: 1.8rem;
+  }
+  input::placeholder {
+    margin-left: 3.6rem;
+  }
+}
